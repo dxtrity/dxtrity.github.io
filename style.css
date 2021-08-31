@@ -220,7 +220,7 @@ header ul li a:hover {
         background-position: center;
         background-repeat: no-repeat;
     }
-    header ul.navbar.active{
+    header ul .navbar.active{
         position: fixed;
         top: 0;
         left: 0;
