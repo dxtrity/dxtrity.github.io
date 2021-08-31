@@ -212,7 +212,7 @@ header ul li a:hover {
         filter: invert(1);
         z-index: 11;
     }
-    .toggle.actve{
+    .toggle.active{
         position: fixed;
         right: 20px;
         background: url(close.png);
@@ -220,7 +220,7 @@ header ul li a:hover {
         background-position: center;
         background-repeat: no-repeat;
     }
-    header ul.navbar.actve{
+    header ul.navbar.active{
         position: fixed;
         top: 0;
         left: 0;
