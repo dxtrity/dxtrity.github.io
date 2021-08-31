@@ -209,7 +209,7 @@ header ul li a:hover {
         background-size: 30px;
         background-position: center;
         background-repeat: no-repeat;
-        filter: invert(1);
+        filter: invert(0);
         z-index: 11;
     }
     .toggle.active{
