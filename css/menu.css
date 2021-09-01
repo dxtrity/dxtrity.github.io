@@ -14,6 +14,7 @@
     --light-blue: #B0D0D3;
     --champagne: #EFE6A9;
     --melon: #ff31c1;
+    --dark-blue: #859DA0;
 }
 
 /*------------*/
@@ -67,6 +68,67 @@ header ul li a {
 
 header ul li a:hover {
     color: var(--pogg);
+}
+
+/*----------------*/
+/* Products Start */
+/*----------------*/
+
+section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*-----------*/
+/* Temporary */
+/*-----------*/
+
+.content {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content .textbox {
+  position: relative;
+  max-width: 600px;
+}
+
+.content .textbox h2 {
+  color: #333;
+  font-size: 3.8em;
+  line-height: 1.4em;
+  font-weight: 500;
+}
+
+.content .textbox h2 span {
+  color: var(--pogg);
+  font-size: 1.2em;
+  font-weight: 900;
+}
+
+.content .textbox p {
+  color: #333;
+
+}
+
+.content .textbox a {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 8px 20px;
+  background: var(--pogg);
+  color: var(--white);
+  border-radius: 40px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-decoration: none;
 }
 
 /*----------------*/
