@@ -68,3 +68,91 @@ header ul li a {
 header ul li a:hover {
     color: var(--pogg);
 }
+
+/*----------------*/
+/* Mobile Support */
+/*----------------*/
+
+@media (max-width: 991px){
+    header {
+        padding: 20px;
+    }
+    header .logo {
+        max-width: 60px;
+    }
+    
+    header ul {
+        display: none;
+    }
+    .toggle {
+        position: relative;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        background: url(../images/menu/menu.png);
+        background-size: 30px;
+        background-position: center;
+        background-repeat: no-repeat;
+        z-index: 11;
+    }
+    .toggle.active {
+        position: fixed;
+        right: 20px;
+        background: url(../images/menu/close.png);
+        background-size: 25px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    header ul.navbar.active {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: #fff;
+        z-index: 10;
+    }
+
+    header ul li a{
+        font-size: 1.5em;
+        margin: 5px 0;
+
+    }
+
+    section{
+        padding: 20px 20px 120px;
+    }
+    .content {
+        flex-direction: column;
+        margin-top: 100px;
+    }
+    .content .textbox h2{
+        font-size: 2.5em;
+    }
+
+    .content .textbox {
+        max-width: 100%;
+    }
+
+    .content .imgBox {
+        max-width: 100%;
+        justify-content: center;
+    }
+
+    .content .imgBox img {
+        max-width: 250px;
+    }
+
+    .thumb li img {
+        max-width: 40px;
+    }
+
+    .circle {
+        clip-path: circle(400px at center bottom);
+    }
+
+}
