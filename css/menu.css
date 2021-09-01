@@ -1,0 +1,70 @@
+/*--------------*/
+/* Google Fonts */
+/*--------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+/*-----------*/
+/* Variables */
+/*-----------*/
+
+:root {
+    --white: #fff;
+    --pogg: #ffb5c1;
+    --light-blue: #B0D0D3;
+    --champagne: #EFE6A9;
+    --melon: #ff31c1;
+}
+
+/*------------*/
+/* Global CSS */
+/*------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/*---------------*/
+/* Header Starts */
+/*---------------*/
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    position: relative;
+    max-width: 100px;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+}
+
+header ul li {
+    list-style-type: none;
+}
+
+header ul li a {
+    display: inline-block;
+    color: #333;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    color: var(--pogg);
+}
