@@ -2,61 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=chrome">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="images/snowflake.png">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Yuki</title>
+    <link rel="icon" href="">
+    <link rel="stylesheet" href="style.css">
+    <title>dx ┃ Portfolio</title>
 </head>
 <body>
     <section>
-        <div class="circle"></div>
-        <header>
-            <a href="#"><img src="images/yuki pink.png" class="logo" alt="logo"></a>
-            <div class="toggle" onclick="toggleMenu();"></div>
-            <ul class="navbar">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="pages/menu.html">Menu</a></li>
-                <li><a href="pages/store.html">Store</a></li>
-                <li><a href="pages/company.html">Company</a></li>
-            </ul>
-        </header>
-
         <div class="content">
             <div class="textbox">
-                <h2>Naturally Sweet<br>Naturally healthy<br> <span>Yuki Drinks</span></h2>
-                <p>Yuki is a ready-to-go tea brand based in the UK. We provide premium quality fruit and milk teas which you can enjoy without any artificial falvours or colours.</p>
-                <a href="pages/store.html">Explore</a>
+                <h2>Site under <span>Construction.</span></h2>
+                <p>We're working on bringing this site to life. Bare with us for now 😅</p>
+                <a href="Yuki/index.html">Visit Yuki</a>
             </div>
-
-            <div class="imgBox">
-                <img src="images/pinktea.png" class="starbucks">
-            </div>
-        </div>
-        <ul class="thumb">
-            <li><img src="images/greentea.png" onclick="imgSlider('images/greentea.png');changeCircleColor('#017143')"></li>
-            <li><img src="images/pinktea.png" onclick="imgSlider('images/pinktea.png');changeCircleColor('#ffb5c1')"></li>
-            <li><img src="images/purptea.png" onclick="imgSlider('images/purptea.png');changeCircleColor('#7F87AE')"></li>
-        </ul>
     </section>
-
-    <script type="text/javascript">
-        function imgSlider(anything){
-            document.querySelector('.starbucks').src = anything;
-        }
-    
-        function changeCircleColor(color){
-           const circle = document.querySelector('.circle');
-           circle.style.background = color;
-        }
-
-        function toggleMenu(){
-            var menuToggle = document.querySelector('.toggle');
-            var nav = document.querySelector('.navbar')
-            menuToggle.classList.toggle('active')
-            nav.classList.toggle('active')
-        }
-
-    </script>
 </body>
 </html>
