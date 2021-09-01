@@ -205,7 +205,7 @@ header ul li a:hover {
         width: 30px;
         height: 30px;
         cursor: pointer;
-        background: url(images/menu.png);
+        background: url(images/menu/menu.png);
         background-size: 30px;
         background-position: center;
         background-repeat: no-repeat;
@@ -214,7 +214,7 @@ header ul li a:hover {
     .toggle.active {
         position: fixed;
         right: 20px;
-        background: url(images/close.png);
+        background: url(images/menu/close.png);
         background-size: 25px;
         background-position: center;
         background-repeat: no-repeat;
