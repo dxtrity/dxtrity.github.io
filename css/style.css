@@ -6,8 +6,15 @@ body {
 }
 
 .welcome {
+    align-items: center;
+    color: white;
     margin: auto;
-    width: 50%;
+    width: auto;
     padding: 10px;
     text-align: center;
+    justify-content: center;
+}
+
+.welcome span {
+    color: blue
 }
