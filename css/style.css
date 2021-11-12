@@ -1,16 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap'); 
 
+:root {
+    --gr1: #000814;
+    --gr2: #003566;
+    --txt: #fff;
+    --comp: #ffc300;
+}
+
 body {
     font-family: "Roboto", "Sans-Serif";
-    background-color: lightskyblue;
+    background-color: var(--gr1);
 }
 
 .welcome {
+    display: flex;
     align-items: center;
-    color: white;
-    margin: auto;
-    width: auto;
-    padding: 10px;
-    text-align: center;
     justify-content: center;
+    color: var(--txt);
+    margin-top: 300px;
+}
+
+.welcome span {
+    color: var(--comp);
 }
