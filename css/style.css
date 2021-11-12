@@ -5,6 +5,7 @@
     --gr2: #003566;
     --txt: #fff;
     --comp: #ffc300;
+    --highlight: #a37d00;
 }
 
 body {
@@ -12,14 +13,59 @@ body {
     background-color: var(--gr1);
 }
 
-.welcome {
+/* Holds everything together */
+.wrapper {
     display: flex;
+    flex-direction: column;
+}
+
+/* The welcome screen */
+.welcome {
     align-items: center;
     justify-content: center;
     color: var(--txt);
-    margin-top: 300px;
+    font-size: 25px;
+    margin-top: 15%;
+    text-align: center;
 }
 
 .welcome span {
     color: var(--comp);
+}
+
+.btn {
+    -webkit-border-radius: 15;
+    -moz-border-radius: 15;
+    border: none;
+    border-radius: 15px;
+    color: var(--gr1);
+    font-size: 20px;
+    font-weight: 600;
+    background: var(--comp);
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+  
+.btn:hover {
+    background: var(--highlight);
+    text-decoration: none;
+}
+
+/* The cards screen */
+
+.card-holder {
+    display: grid;
+    grid-template-rows: 33%;
+    align-items: center;
+    text-align: center;
+    margin-top: 20%;
+}
+
+.card {
+    padding: 1em;
+    background-color: var(--gr2);
+}
+
+.card p {
+    max-width: 20em;
 }
