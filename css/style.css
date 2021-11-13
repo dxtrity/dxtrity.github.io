@@ -130,6 +130,10 @@ a {
     display: inline-block;
 }
 
+.card-header h2 span {
+    color: var(--comp);
+}
+
 .card-header button {
     margin-top: 5em;
     -webkit-border-radius: 15;
