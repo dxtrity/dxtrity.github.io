@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap');
+
+:root {
+    --gr1: #000814;
+    --gr2: #031229;
+    --txt: #fff;
+    --comp: #ffc300;
+    --highlight: #a37d00;
+    --btn-txt: #000;
+}
+
+* {
+    font-family: "Roboto", "Sans-Serif";
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--gr1);
+}
+
+* span {
+    color: var(--comp);
+}
+
+.main {
+    margin: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 1px;
+}
+
+.main h1{
+    color: var(--txt);
+    font-size: 50px;
+}
+
+.main .info {
+    color: var(--txt);
+    font-size: 25px;
+}
+
+.main p{
+    font-size: 20px;
+    color: var(--txt);
+}
+
+ul li {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    -webkit-border-radius: 15;
+    -moz-border-radius: 15;
+    border: none;
+    border-radius: 15px;
+    color: var(--gr1);
+    font-size: 20px;
+    font-weight: 600;
+    background: var(--comp);
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+button a {
+    color: var(--gr1);
+    text-decoration: none;
+}
+  
+button:hover {
+    background: var(--highlight);
+    text-decoration: none;
+}
